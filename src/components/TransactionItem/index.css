@@ -1,0 +1,66 @@
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 4px 3px;
+  margin: 0px;
+  border: 1px solid #cbd5e1;
+}
+
+.item {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 400;
+  width: 80px;
+  margin: 5px 10px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 2px 8px;
+}
+
+.delete {
+  height: 25px;
+  width: 25px;
+}
+
+@media (min-width: 768px) {
+  li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 4px 3px;
+    margin: 0px;
+    border: 1px solid #cbd5e1;
+  }
+
+  .item {
+    color: #475569;
+    font-size: 15px;
+    font-weight: 400;
+    width: 90px;
+    margin: 5px 10px;
+  }
+
+  .delete-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2px 8px;
+  }
+
+  .delete {
+    height: 25px;
+    width: 25px;
+  }
+}

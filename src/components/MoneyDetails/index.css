@@ -1,0 +1,120 @@
+.money-details-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 5px 0px;
+}
+
+.card-container {
+  height: 90px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  min-width: 220px;
+  flex-grow: 1;
+}
+
+.your-balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.your-income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.your-expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+
+.money-detail-image {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.card-info {
+  margin: 5px;
+}
+
+.card-title {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 7px;
+}
+
+.money-details {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 7px;
+}
+
+@media (min-width: 768px) {
+  .money-details-cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 3px 0px;
+  }
+
+  .card-container {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 3px 12px;
+    min-width: 220px;
+    flex-grow: 1;
+  }
+
+  .your-balance {
+    background-color: #ecfccb;
+    border: 1px solid #84cc16;
+  }
+
+  .your-income {
+    background-color: #cffafe;
+    border: 1px solid #06b6d4;
+  }
+  .your-expenses {
+    background-color: #ede9fe;
+    border: 1px solid #7c3aed;
+  }
+
+  .money-detail-image {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+  }
+
+  .card-info {
+    margin: 5px;
+  }
+
+  .card-title {
+    color: #475569;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 7px;
+  }
+
+  .money-details {
+    color: #475569;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 7px;
+  }
+}
